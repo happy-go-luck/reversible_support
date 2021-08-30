@@ -1,0 +1,40 @@
+@import 'mixin';
+
+
+
+
+main {
+  
+  padding: 15% 0 0 0;
+
+  .construction {
+    background-color: $c-blue;
+    padding: 50px;
+    
+    .contents {
+      @include margin-center();
+
+      h2 {
+        color: $c-white;
+        font-size: $fontL;
+      }
+
+      h4,p {
+        font-size: $fontM;
+        margin: 0;
+      }
+    }
+  }
+
+  .imgs {
+    @include margin-center();
+    padding: 20px;
+    background-color: $c-back;
+
+    img {
+      width:80%;
+      
+    }
+  }
+}
+

@@ -1,0 +1,232 @@
+@import 'mixin';
+
+.z-container {
+  @include margin-center(70%);
+  @include flex-center();
+  flex-direction: column;
+  
+  .top-logo {
+    width: 70%;
+    padding-top: 15%;
+
+  }
+
+  .persons {
+    @include margin-center(90%);
+    @include flex-between();
+    margin-bottom: 50px;
+
+
+    img {
+      width: 15%;
+    }
+
+    .middle-logo {
+      width: 30%;
+    }
+  }
+
+  .main-img {
+    width: 100%;
+    padding: 0;
+    background-color: $c-blue3;
+    flex-direction: column;
+    position: relative;
+    @include flex-center();
+
+    img {
+      @include margin-center(70%);
+    }
+
+    .point {
+      width: 30%;
+      position: absolute;
+      top: 0;
+      left: 60%;
+    }
+
+    .point2 {
+      color:$c-white;
+      position: absolute;
+      bottom: 0;
+      left: 75%;
+      font-size:$fontS;
+    }
+
+  }
+
+  .what-is {
+    margin: 50px 0;
+    @include margin-center(70%);
+
+    .top {
+      @include flex-center();
+      margin:$marginM;
+
+      img {
+        width: 40%;
+        margin: 0 5px 0 0;
+      }
+
+      p {
+        margin: 0 0 0 5px;
+        line-height: 1.5;
+        font-size: $fontS;
+        font-weight: bold;
+      }
+    }
+
+    .bottom {
+      margin: $marginM;
+      padding: 20px 30px;
+      border: 2px solid $c-blue3;
+      border-radius: 20px;
+
+      h2 {
+        margin: 0 0 10px 0;
+        color: $c-navy;
+        font-size: $fontL;
+      }
+
+      p {
+        margin: 0;
+        font-size: $fontM;
+      }
+
+      .insects {
+        margin: 5px 0 0 0;
+        font-size: $fontS;
+      }
+    }
+  }
+
+  .features {
+    @include flex-center();
+
+    img {
+      @include margin-center(100%);
+      margin: 60px 0;
+      
+    }
+  }
+
+  .section {
+    padding: 30px 0;
+    background-color: rgb(224, 224, 224);
+    @include margin-center(85%);
+    margin: 50px 0 0 0;
+
+    .title {
+      padding: 10px;
+      color: $c-white;
+      background-color: $c-blue2;
+      text-align: center;
+      @include margin-center();
+
+      h2 {
+        font-size: $fontL;
+        margin: 0;
+      }
+
+      p {
+        font-size: $fontS;
+      }
+    }
+  }
+
+  .z-body {
+    @include margin-center(85%);
+    @include flex-center();
+    margin-top: 20px;
+
+      img {
+       width: 20%;
+      }
+
+
+    .z-b-contents {
+      margin-left: 10px;
+      width: 70%;
+
+      h5 {
+        margin: 0 0 0 5px;
+        font-size: $fontS;
+      }
+
+      p {
+        font-size: $fontS;
+        margin: 0
+      }
+    }
+  }
+
+  .s-contents {
+    @include flex-center();
+    @include margin-center(80%);
+
+    img {
+      width: 50%;
+    }
+
+    p {
+      font-size: $fontS;
+      margin: 10px 0 0 0;
+    }
+  }
+
+  .price {
+
+    h5 {
+      font-size: $fontM;
+      font-weight: bold;
+      text-align: left;
+      @include margin-center(75%);
+      margin-top: 10px;
+    }
+
+    .p-point {
+      @include flex-center();
+      
+      
+      .color {
+        margin: 10px 10px 30px 10px;
+        padding: 10px;
+        border-radius: 15px;
+        color: $c-white;
+        background-color: $c-blue3;
+        font-size: $fontM;
+      }
+
+      .puls {
+        font-weight: normal;
+      }
+    }
+    
+    .nomal {
+      font-size: $fontS;
+      font-weight: normal;
+      text-align: left;
+      @include margin-center(70%)
+    }
+
+  }
+
+  .add {
+    font-size: $fontSS;
+    width: 70%;
+    margin: 20px 0 0 0;
+  }
+
+  .last-contact {
+    width: 70%;
+    @include flex-center();
+    margin: 30px 0 0 0;
+
+    p {
+      margin: 0;
+      color: $c-black;
+      font-size: $fontSS;
+    }
+  }
+
+}

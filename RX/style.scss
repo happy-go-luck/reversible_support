@@ -1,0 +1,305 @@
+@import "mixin";
+
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: $c-back;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+header {
+  width: 100%;
+  .h-top {
+    width: 100%;
+    padding: 20px 0;
+    background-color: $c-navy;
+    position: fixed;
+    z-index: 1;
+    opacity: .9;
+    
+    .h-top-flex {
+      @include margin-center();
+      @include flex-between();
+
+      .h-left {
+
+        img {
+          width: 60%;
+
+          &:hover {
+            opacity: .7;
+          }
+        }
+
+      }
+  
+      .h-right {
+      
+        p {
+          margin: 0;
+          color: $c-white;
+          font-size: $fontS;
+          text-align: left;
+          white-space: nowrap;
+        }
+  
+        a {
+          font-weight: bold;
+          @include text-none();
+          @include flex-center();
+          justify-content: flex-start;
+
+          &:hover {
+            opacity: .7;
+          }
+  
+          .fas {
+            margin: 0 10px 0 0;
+            color: $c-white;
+            font-size: $fontL;
+          }
+
+          p {
+            font-size: $fontLL;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+main {
+  width: 100%;
+
+  .r-container {
+    // @include margin-center(70%);
+    @include flex-center();
+    flex-direction: column;
+    padding: 15% 0 0 0;
+
+    .top-logo {
+      img {
+        @include margin-center(70%);
+        @include flex-center();
+      }
+    }
+
+
+    .main-img {
+      width: 100%;
+      margin: $marginM;
+    }
+
+    .main-logo {
+      width: 90%;
+      @include flex-center();
+      img {
+        width: 40%;
+      }
+    }
+
+
+    .first-section {
+      @include margin-center(70%);
+      margin: $marginM;
+      padding: 20px 30px;
+      border: 2px solid $c-blue3;
+      border-radius: 20px;
+
+
+      h2 {
+        font-size: $fontM;
+        color: $c-navy;
+      }
+    }
+
+
+  }
+
+  .second-section {
+    padding: 30px 0;
+    background-color: rgb(224, 224, 224);
+    @include margin-center(70%);
+    margin-top: 50px;
+
+    .title {
+      padding: 10px;
+      color: $c-white;
+      font-size: $fontM;
+      background-color: $c-blue2;
+      text-align: center;
+      @include margin-center();
+    }
+
+    p {
+      font-size: $fontS
+    }
+
+    .table,.voice {
+      @include margin-center(85%);
+      @include flex-center();
+      margin-top: 20px;
+
+    }
+
+    .products {
+      @include flex-center();
+      @include margin-center();
+
+      .ditail {
+        width: 40%;
+        margin: 20px 10px 0 0;
+      }
+
+      .products-imgs{
+        margin: 20px 0 0 10px;
+
+        .photo2,.photo3 {
+          width: 95%;
+          @include margin-center();
+          @include flex-center();
+        }
+
+        .photo3 {
+          width: 100%;
+        }
+
+        p {
+          font-size: $fontS;
+        }
+
+
+      }
+
+      
+    }
+
+    
+  }
+
+  .price {
+    p {
+      font-size: $fontM;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  .contact {
+    width: 100%;
+    margin: 200px 0;
+    // padding: 40px 0;
+    background-color: $c-blue2;
+    @include flex-center();
+
+    .c-contents {
+      @include flex-center();
+      @include margin-center();
+
+      .c-text {
+        @include flex-center();
+        flex-direction: column;
+        align-items: flex-start;
+  
+        .c-title {
+          border-radius: 20px;
+          background-color: $c-white;
+          @include flex-center();
+          margin: 20px 0;
+    
+          h2 {
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            font-size: $fontM;
+            color: $c-navy;
+            user-select: none;
+          }
+        }
+
+        .phone,.mail {
+          @include text-none();
+          @include flex-center();
+          color: $c-white;
+          margin-bottom: 20px;
+  
+          &:hover {
+            opacity: .7;
+          }
+    
+          .fas {
+            margin: 0 10px 0 0;
+            font-size: $fontL;
+          }
+    
+          p {
+            margin:  0;
+            font-size: $fontLL;
+            font-weight: bold;
+  
+            span {
+              margin: 0 0 0 10px;
+              font-size: $fontS;
+            }
+          }
+        }
+      }
+
+      .c-img {
+        width: 20%;
+        align-self: flex-end;
+      }
+  
+    }
+    
+  
+      
+  }
+
+  .sdgs {
+    width: 85%;
+  }
+  
+}
+
+footer {
+  padding: 30px 10px;
+  width: 100%;
+  background-color: $c-navy;
+  @include flex-center();
+  justify-content: flex-start;
+
+  a {
+    width: 25%;
+    display: block;
+    text-align: center;
+    img {
+      width: 80%;
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+
+  p {
+    color: $c-white;
+    margin: 0;
+    font-size: $fontSS;
+  }
+}

@@ -1,0 +1,91 @@
+@media screen and (max-width: 500px) {
+  header .h-top {
+    padding: 15px 0;
+  }
+  header .h-top .h-top-flex .h-left img {
+    width: 80%;
+  }
+  header .h-top .h-top-flex .h-right p {
+    font-size: 10px;
+  }
+  header .h-top .h-top-flex .h-right a .fas {
+    font-size: 16px;
+  }
+  header .h-top .h-top-flex .h-right a p {
+    font-size: 18px;
+  }
+  main {
+    margin: 0;
+  }
+  main .r-container {
+    padding: 20% 0 0 0;
+    width: 100%;
+  }
+  main .r-container .main-img {
+    margin: 10px 0;
+  }
+  main .r-container .main-logo {
+    margin: 30px 0;
+  }
+  main .r-container .first-section {
+    width: 90%;
+    margin: 30px 0;
+  }
+  main .r-container .first-section h2 {
+    font-size: 18px;
+  }
+  main .r-container .first-section p {
+    font-size: 14px;
+  }
+  main .r-container .second-section {
+    width: 100%;
+    padding: 20px 0;
+  }
+  main .r-container .second-section .title {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  main .r-container .second-section p {
+    font-size: 16px;
+    text-align: center;
+  }
+  main .r-container .second-section .table {
+    width: 95%;
+  }
+  main .r-container .second-section .products .datail {
+    width: 100%;
+    margin: 20px 5px 0 0;
+  }
+  main .r-container .second-section .products .products-imgs .photo2 {
+    margin: 20px 0 0 5px;
+  }
+  main .r-container .second-section .products .products-imgs p {
+    font-size: 12px;
+  }
+  main .price p {
+    font-size: 14px;
+  }
+  main .contact {
+    margin: 50px 0;
+  }
+  main .contact .c-contents .c-text .c-title {
+    margin: 20px 0;
+  }
+  main .contact .c-contents .c-text .c-title h2 {
+    padding: 10px;
+    font-size: 14px;
+  }
+  main .contact .c-contents .c-text .phone p, main .contact .c-contents .c-text .phone .fas, main .contact .c-contents .c-text .mail p, main .contact .c-contents .c-text .mail .fas {
+    font-size: 16px;
+  }
+  main .contact .c-contents .c-text .phone p span, main .contact .c-contents .c-text .phone .fas span, main .contact .c-contents .c-text .mail p span, main .contact .c-contents .c-text .mail .fas span {
+    display: block;
+  }
+  main .contact .c-contents .c-img {
+    width: 30%;
+  }
+  main .sdgs {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=responsible.css.map */

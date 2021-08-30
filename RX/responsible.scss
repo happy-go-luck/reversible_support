@@ -1,0 +1,161 @@
+@import "mixin";
+
+@media screen and (max-width:500px) {
+  
+  header {
+
+    .h-top {
+      padding: 15px 0;
+
+      .h-top-flex {
+        .h-left {
+
+          img {
+            width: 80%;
+          }
+        }
+
+        .h-right {
+          p {
+            font-size: $fontF;
+          }
+
+          a {
+            .fas {
+              font-size: $fontC;
+            }
+
+            p {
+              font-size: $fontB;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    margin: 0;
+
+
+    .r-container {
+      padding: 20% 0 0 0;
+      width: 100%;
+
+      .main-img {
+        margin: $marginSS;
+      }
+
+      .main-logo {
+        margin:$marginS;
+      }
+
+      .first-section {
+        width: 90%;
+        margin: $marginS;
+
+        h2 {
+          font-size: $fontB;
+        }
+
+        p {
+          font-size: $fontD;
+        }
+      }
+
+      .second-section {
+        width: 100%;
+        padding: 20px 0;
+
+        .title {
+          margin-bottom: 30px;
+          font-size: $fontB;
+        }
+
+        p {
+          font-size: $fontC;
+          text-align: center;
+        }
+
+        .table {
+          width: 95%;
+        }
+
+        .products {
+
+          .datail {
+            width: 100%;
+            margin: 20px 5px 0 0;
+          }
+
+          .products-imgs {
+
+            .photo2 {
+              margin: 20px 0 0 5px;
+            }
+  
+            p {
+              font-size: $fontE;
+            }
+
+          }
+
+        }
+      }
+    }
+
+    .price {
+      p {
+        font-size: $fontD;
+      }
+    }
+
+
+
+    .contact {
+      margin: 50px 0;
+      // padding: 15px 0;
+
+      .c-contents {
+
+        .c-text {
+          .c-title {
+            margin: 20px 0;
+
+            h2 {
+              padding: 10px;
+              font-size: $fontD;
+            }
+          }
+
+          .phone,.mail {
+            p,.fas {
+              font-size: $fontC;
+
+              span {
+                display: block;
+              }
+            }
+          }
+        }
+
+        .c-img {
+          width: 30%;
+        }
+      }
+    }
+
+
+    .sdgs {
+      width: 100%;
+    }
+
+
+  }
+
+
+
+
+
+}
+

@@ -1,0 +1,327 @@
+@import 'mixin';
+
+@media screen and (max-width:1000px){
+
+    // body {
+    //     background-color: rgb(136, 136, 204);
+    // }
+
+    main {
+        .z-container {
+            width: 90%;
+        }
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+
+    // body {
+    //     background-color: rgb(156, 175, 159);
+    // }
+      
+
+    header {
+
+        .h-top {
+            padding: 15px 0;
+
+            .h-top-flex {
+
+                .h-left {
+
+                    img {
+                        width: 80%;
+                    }
+                }
+
+                .h-right {
+    
+                    p {
+                        font-size: $fontF;
+    
+                    }
+    
+                    a {
+    
+                        .fas {
+                            font-size: $fontC;
+                        }
+    
+                        p {
+                            font-size: $fontB;
+                        }
+                    }
+                }
+            }
+            }
+
+
+        .h-main {
+
+            .h-main-back {
+                padding: 20% 0 0 0;
+            }
+
+            h1 {
+                font-size: $fontA;
+                padding: 3px;
+                margin: 0 0 0 10px;
+            }
+        }
+    }
+
+
+    main {
+        margin: 0;
+
+        .m-section {
+            @include margin-center($width:85%);
+
+
+            h2 {
+                margin: 20px 0 2px 0;
+                font-size: $fontB;
+            }
+
+            .slide {
+                margin: 0 0 30px 0;
+            }
+
+            .m-contents {
+
+                .m-content {
+                    @include margin-center(60%);
+                    margin-bottom: 20px;
+
+                    a {
+                        height: 120px;
+                        .img-back {
+                           
+                            h5 {
+                                font-size: $fontB;
+                            }
+                        }
+    
+                    }
+
+
+                        p {
+                            padding:3px;
+                            font-size: $fontF;
+                            line-height: 12px;
+                        }    
+                        
+                        &:last-child {
+                            margin: 0 auto;
+                        }
+                }
+
+
+            }
+
+            .another {
+                font-size:$fontE; 
+                @include margin-center(70%);
+            }
+        }
+
+        .contact {
+            margin: 50px 0;
+
+            .c-contents {
+                
+                .c-text {
+                    .c-title {
+                        margin: 20px 0;
+                        h2 {
+                            padding: 10px;
+                            font-size: $fontD;
+                        }
+                    }
+
+                    .phone,.mail {
+                        p,.fas {
+                            font-size: $fontC;
+
+                            span {
+                                display: block;
+                            }
+                        }
+                    }
+
+                }
+
+                .c-img {
+                    width: 30%;
+                }
+            }
+        }
+    }
+
+    main {
+
+        .z-container {
+            width: 100%;
+
+            .top-logo {
+                width: 100%;
+                padding-top: 90px;
+            }
+
+            .persons {
+                margin-bottom: 15px;
+
+                img {
+                    width: 30%;
+                }
+
+                .middle-logo {
+                    width: 40%;
+                }
+
+                .delete {
+                    display: none;
+                }
+            }
+
+            .main-img {
+                .point2 {
+                    left: 65%;
+                    font-size: $fontF;
+                }
+            }
+            
+            .what-is {
+                    @include margin-center(85%);
+
+
+                .top {
+                    margin: $marginS;
+
+                    img {
+                        width: 50%;
+                    }
+
+                    p {
+                        font-size: $fontE;
+                        font-weight: normal;
+                        letter-spacing: -1px;
+                    }
+                }
+
+                .bottom {
+                    margin: $marginS;
+
+                    h2 {
+                        margin: 0 0 5px 0;
+                        font-size: $fontC;
+                    }
+
+                    p {
+                        font-size: $fontE;
+                        line-height: 1.3;
+                    }
+
+                    .insects {
+                        font-size: $fontF;
+                    }
+                    
+                }
+            }
+
+            .features {
+
+                img {
+                    margin: $marginSS;
+                }
+            }
+
+
+            .section {
+                @include margin-center(100%);
+                margin: $marginS;
+                padding: 30px 0;
+
+                .title {
+
+                    h2 {
+                        font-size: $fontB;
+                    }
+                }
+
+                .z-body {
+
+                    img {
+                        width: 30%;
+                    }
+
+                     p,h5 {
+                         font-size: $fontD;
+                     }
+                }
+
+                .s-contents {
+                    flex-direction: column;
+
+                    img {
+                        width: 70%;
+                    }
+
+                    p {
+                        font-size: $fontD;
+                    }
+                }
+
+                .price {
+
+                    h5 {
+                        margin: 5px 0 0 20px;
+                        width: 95%;
+                        font-size: $fontC;
+                        letter-spacing: 0;
+                        @include margin-center(80%);
+
+                    }
+
+                    .p-point {
+
+                        .color {
+                            font-size: $fontC;
+                        }
+                    }
+
+                    .nomal {
+                        font-size: $fontE;
+                    }
+                }
+            }
+
+            .add {
+                width: 80%;
+                margin: 0;
+                font-size: $fontF;
+            }
+
+            .last-contact {
+                
+                width: 80%;
+                margin: $marginSS;
+
+                p {
+                    font-size: $fontF;
+                }
+            }
+        }
+    }
+
+
+    footer {
+        .f-contents {
+            p {
+                font-size: $fontF;
+            }
+        }
+    }
+}
+

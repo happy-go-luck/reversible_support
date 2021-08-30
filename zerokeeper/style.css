@@ -1,0 +1,309 @@
+.z-container {
+  margin: 0 auto;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.z-container .top-logo {
+  width: 70%;
+  padding-top: 15%;
+}
+
+.z-container .persons {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.z-container .persons img {
+  width: 15%;
+}
+
+.z-container .persons .middle-logo {
+  width: 30%;
+}
+
+.z-container .main-img {
+  width: 100%;
+  padding: 0;
+  background-color: #1296ca;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.z-container .main-img img {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.z-container .main-img .point {
+  width: 30%;
+  position: absolute;
+  top: 0;
+  left: 60%;
+}
+
+.z-container .main-img .point2 {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 75%;
+  font-size: 1.5vw;
+}
+
+.z-container .what-is {
+  margin: 50px 0;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.z-container .what-is .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0;
+}
+
+.z-container .what-is .top img {
+  width: 40%;
+  margin: 0 5px 0 0;
+}
+
+.z-container .what-is .top p {
+  margin: 0 0 0 5px;
+  line-height: 1.5;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.z-container .what-is .bottom {
+  margin: 50px 0;
+  padding: 20px 30px;
+  border: 2px solid #1296ca;
+  border-radius: 20px;
+}
+
+.z-container .what-is .bottom h2 {
+  margin: 0 0 10px 0;
+  color: #131357;
+  font-size: 3vw;
+}
+
+.z-container .what-is .bottom p {
+  margin: 0;
+  font-size: 2vw;
+}
+
+.z-container .what-is .bottom .insects {
+  margin: 5px 0 0 0;
+  font-size: 1.5vw;
+}
+
+.z-container .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.z-container .features img {
+  margin: 0 auto;
+  width: 100%;
+  margin: 60px 0;
+}
+
+.z-container .section {
+  padding: 30px 0;
+  background-color: #e0e0e0;
+  margin: 0 auto;
+  width: 85%;
+  margin: 50px 0 0 0;
+}
+
+.z-container .section .title {
+  padding: 10px;
+  color: white;
+  background-color: #3b62ce;
+  text-align: center;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.z-container .section .title h2 {
+  font-size: 3vw;
+  margin: 0;
+}
+
+.z-container .section .title p {
+  font-size: 1.5vw;
+}
+
+.z-container .z-body {
+  margin: 0 auto;
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.z-container .z-body img {
+  width: 20%;
+}
+
+.z-container .z-body .z-b-contents {
+  margin-left: 10px;
+  width: 70%;
+}
+
+.z-container .z-body .z-b-contents h5 {
+  margin: 0 0 0 5px;
+  font-size: 1.5vw;
+}
+
+.z-container .z-body .z-b-contents p {
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+.z-container .s-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.z-container .s-contents img {
+  width: 50%;
+}
+
+.z-container .s-contents p {
+  font-size: 1.5vw;
+  margin: 10px 0 0 0;
+}
+
+.z-container .price h5 {
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: left;
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 10px;
+}
+
+.z-container .price .p-point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.z-container .price .p-point .color {
+  margin: 10px 10px 30px 10px;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  background-color: #1296ca;
+  font-size: 2vw;
+}
+
+.z-container .price .p-point .puls {
+  font-weight: normal;
+}
+
+.z-container .price .nomal {
+  font-size: 1.5vw;
+  font-weight: normal;
+  text-align: left;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.z-container .add {
+  font-size: 1.2vw;
+  width: 70%;
+  margin: 20px 0 0 0;
+}
+
+.z-container .last-contact {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0 0 0;
+}
+
+.z-container .last-contact p {
+  margin: 0;
+  color: #141414;
+  font-size: 1.2vw;
+}
+/*# sourceMappingURL=zero.css.map */
